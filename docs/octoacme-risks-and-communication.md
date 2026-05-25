@@ -40,3 +40,12 @@ Incident Communication
 ## Escalation Paths
 - Team-level -> PM -> Product Lead -> Sponsor
 - For security incidents, follow the security incident runbook and notify Security on-call
+
+## Role-based Communication Handoffs
+- **Requirements handoff (PdM/BA -> Developers/QA)**: include business context, acceptance criteria, and open assumptions.
+- **Design handoff (UX -> Developers/QA)**: include user flow, edge cases, and expected behavior for validation.
+- **Delivery handoff (Developers -> QA/Testing)**: include test notes, known limitations, and links to relevant PRs/issues.
+- **Release handoff (QA/Testing + Developers -> DevOps + PM)**: include test evidence, release risks, and rollback expectations.
+- **Stakeholder update handoff (PM + PdM -> Stakeholders)**: include current status, blockers, decisions needed, and owners.
+
+Use the [Role Accountability Matrix](./octoacme-role-accountability-matrix.md) during planning and weekly syncs to confirm owners for each handoff.
