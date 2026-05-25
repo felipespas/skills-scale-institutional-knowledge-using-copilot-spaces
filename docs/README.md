@@ -18,4 +18,3 @@ Quality assurance is built into execution and release rather than treated as a f
 - [Release & Deployment Guide](./octoacme-release-and-deployment.md)
 - [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md)
 - [Roles and Personas](./octoacme-roles-and-personas.md)
-- [Role Accountability Matrix](./octoacme-role-accountability-matrix.md)
